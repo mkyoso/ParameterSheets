@@ -120,8 +120,8 @@ Windows 版 Terraform 導入と Hyper-v の有効化を行う必要がありま�
 
 以下、Terraform公式サイトよりWindowsインストーラーをダウンロードして下さい。<br>
 [Terraform公式サイト](https://www.terraform.io/downloads)<br>
-ダウンロード後、任意の場所に展開します。<br>
-必要に応じてterraform.exeのPathを環境設定に登録しTerraform導入は完了です。<br>
+ダウンロード後、ダウンロードしたファイルを任意の場所に展開します。<br>
+必要に応じてterraform.exeのPathを環境変数に設定し、Terraform導入は完了です。<br>
 
 #### Hyper-v 有効化
 
