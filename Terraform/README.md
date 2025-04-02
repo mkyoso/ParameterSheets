@@ -114,9 +114,19 @@ Terraform Hyper-V プロバイダを用いた Hyper-v 環境構築支援テン�
 ### 導入方法
 
 Windows 版 Terraform 導入と Hyper-v の有効化を行う必要があります。<br>
+<br>
+
+#### Windows版Terraform導入
+
+以下、Terraform公式サイトよりWindowsインストーラーをダウンロードして下さい。<br>
+[Terraform公式サイト](https://www.terraform.io/downloads)<br>
+ダウンロード後、任意の場所に展開します。<br>
+必要に応じてterraform.exeのPathを環境設定に登録しTerraform導入は完了です。<br>
+
+#### Hyper-v 有効化
+
 Hyper-v 有効化はディレクトリ内の「ps_hv_enable-check.ps1」にて確認できます。<br>
 スクリプトでは Hyper-v 有効化も併せて行えるようにしています。<br>
-<br>
 「ps_hv_enable-check.ps1」の Powershell スクリプト内容を記載します。<br>
 
 ```powershell
